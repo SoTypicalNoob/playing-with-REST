@@ -1,0 +1,20 @@
+#+TITLE: Playing With Rest Api And HTTP
+
+* First PoC
+To get it work the followings are needed (in Doom Emacs):
++ Add these into pakcages.el:
+  #+begin_src emacs-lisp
+(package! restclient)
+(package! ob-restclient)
+  #+end_src
+  + Add these lines into config.el:
+    #+begin_src emacs-lisp
+(org-babel-do-load-languages
+    'org-babel-load-languages
+    '((dot . t)
+      (restclient . t)))
+    #+end_src
+    This is the first try:
+#+begin_src restclient
+GET http://example.com
+#+end_src

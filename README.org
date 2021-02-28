@@ -1,0 +1,6 @@
+#+TITLE: Playing With REST API and HTTP
+This porject is about to get familiar handling with REST API and HTTP requests with Emacs-Lisp within Emacs. Also, I start using literate programming methods.
+I was inspired byt the following articles:
++ [[https://www.offerzen.com/blog/literate-programming-empower-your-writing-with-emacs-org-mode][Literate Programming: Empower Your Writing with Emacs Org-Mode]] (By Justin Worthe)
++ [[https://justinbarclay.me/posts/literate_programming_against_rest_apis/][Literate Programming against REST APIs]] (By Justin Barclay)
++ [[https://kitchingroup.cheme.cmu.edu/blog/category/elisp/][The Kitchin Research Group - Using results from one code block in another org-mode]]
